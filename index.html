@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Bienvenido al Encriptador de Texto 🔏</h1>
+    <input type="text" class="input_encriptar" id="el_texto" placeholder="Escribe aqui tu texto"><br>
+    <span class="aclaracion">recuerda que solo puedes usar letras minusculas y no debes usar acentos</span>
+    <br>
+    <button class="encriptar" onclick="encriptar();">Encriptar</button>
+    <button class="desencriptar" onclick="desencriptar();">Desencriptar</button>
+    <br>
+    <div class="enc_resultado">
+        <div id="sin_texto">
+            <img src="https://cdn-icons-png.flaticon.com/512/2494/2494628.png" alt="" width="200px">
+            <br>
+            <h3>Esperando</h3>
+            tus instrucciones
+        </div>
+        <span id="el_resultado_es"></span>
+    </div>
+    <button class="btn_resultado" onclick="copiar();">Copiar resultado</button>
+
+    <div class="footer">Desarrollado por DIANA POLO -- 2024</div>
+
+
+
+    <script src="encriptar.js"></script>
+
+</body>
+
+</html>

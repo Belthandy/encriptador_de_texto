@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.aclaracion{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.input_encriptar{
+    height: 75px;
+    width: 600px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    border: none;
+    outline: none;
+    color:#5bc668;
+    border-bottom: 1px solid  green;
+    margin: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.encriptar{
+    width: 150px;
+    height: 35px;
+    background-color: aqua;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+}
+.encriptar:hover{
+    width: 155px;
+    height: 40px;
+}    
+
+.desencriptar{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(55, 68, 182);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.desencriptar:hover{
+    width: 155px;
+    height: 40px;
+}   
+
+.enc_resultado{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.btn_resultado{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(230, 115, 39);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn_resultado:hover{
+    width: 155px;
+    height: 40px;
+}  
+
+hr{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.footer{
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+}
